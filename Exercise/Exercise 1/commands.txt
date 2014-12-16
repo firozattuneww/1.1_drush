@@ -1,0 +1,4 @@
+1. drush dl drupal
+2. drush status
+3. drush site-install standard --account-name=admin --account-pass=admin --db-url=mysql://root:@localhost/drush_project
+

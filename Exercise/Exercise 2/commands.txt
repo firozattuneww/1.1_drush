@@ -1,0 +1,33 @@
+1. List down all drupal modules: drush pml
+2. drush pml --status="not installed"
+3. drush pml --status="not installed,disabled"
+4. drush pml --type=theme
+5. drush dl admin_menu
+6. drush pml --package=administration
+7. drush pmi admin_menu
+8. drush dis comment
+9. drush pm-uninstall comment
+10. drush en admin_menu
+
+drush help user-information
+drush uinf admin
+
+drush uinf admin --full
+setting password manulally
+drush upwd admin --password=hello
+one time URL: drush uli admin
+drush ucrt test --mail="test@test.com" --password=test
+drush ublk 1 -- block
+drush uublk 1  -- unblock
+
+
+drush wd-list
+drush ws
+drush ws --count=5 --type=system
+drush ws --type="access denied" --tail
+drush up
+
+drush sqp-dump
+
+drush | grep -i download
+drush | findstr -i download
